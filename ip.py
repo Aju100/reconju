@@ -1,8 +1,9 @@
 import os
 
+# GET IP ADDRESS
 def getIP(url):
 
-    command = "host"+ " "+url
+    command = "host "+url
     process = os.popen(command)
     results = str(process.read())
 

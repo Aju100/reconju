@@ -9,4 +9,4 @@ def get(options,ip):
 
     return results
 
-print(get('-o','54.186.250.79'))
+print(get('-Pn','103.192.77.232'))

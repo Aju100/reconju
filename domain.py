@@ -1,8 +1,6 @@
-from tld import get_tld
+from tld import get_fld
 
-def get_Domain(url):
+# GET THE TOP LEVEL DOMAIN
 
-    name = get_tld(url)
-    return name
-
-print(get_Domain('https://www.facebook.com'))
+get_Domain = get_fld('https://www.csaju.com')
+print(get_Domain)
